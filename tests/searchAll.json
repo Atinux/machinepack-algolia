@@ -1,0 +1,19 @@
+{
+  "machine": "searchAll",
+  "expectations": [
+    {
+      "using": {
+        "applicationID": "YLUTETAA39",
+        "apiKey": "7ca88e3baaa5e8501da083c580b8e5c6",
+        "queries": [{
+          "indexName": "user",
+          "query": "seb",
+          "params": {
+            "page": 1
+          }
+        }]
+      },
+      "outcome": "success"
+    }
+  ]
+}

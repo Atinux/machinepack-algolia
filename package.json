@@ -1,6 +1,6 @@
 {
   "name": "machinepack-algolia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Algolia is a web service for instant search.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
@@ -29,7 +29,8 @@
     "machines": [
       "indexObjects",
       "deleteObjects",
-      "search"
+      "search",
+      "searchAll"
     ]
   }
 }
