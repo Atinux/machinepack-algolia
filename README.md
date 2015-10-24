@@ -9,7 +9,7 @@
 Algolia is a web service for instant search.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-schemainspector.svg)](http://badge.fury.io/js/machinepack-schemainspector) [![Build Status](https://travis-ci.org/Atinux/machinepack-schemainspector.png?branch=master)](https://travis-ci.org/Atinux/machinepack-schemainspector)
+## Installation
 
 ```sh
 $ npm install machinepack-algolia
