@@ -1,0 +1,35 @@
+{
+  "name": "machinepack-algolia",
+  "version": "0.1.0",
+  "description": "Algolia is a web service for instant search.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Algolia",
+    "Search"
+  ],
+  "author": "atinux",
+  "license": "MIT",
+  "dependencies": {
+    "algoliasearch": "^3.8.1",
+    "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Atinux/machinepack-algolia.git"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.1"
+  },
+  "machinepack": {
+    "friendlyName": "Algolia",
+    "iconSrc": "https://raw.githubusercontent.com/Atinux/machinepack-algolia/master/algolia-logo.png",
+    "machineDir": "machines/",
+    "machines": [
+      "indexObjects",
+      "deleteObjects",
+      "search"
+    ]
+  }
+}
